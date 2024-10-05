@@ -1,0 +1,25 @@
+
+GET http://localhost:3000/movies
+
+GET http://localhost:3000/movies/:id
+###
+
+GET http://localhost:3000/movies?genre=violenta
+
+
+###
+
+POST http://localhost:3000/movies
+
+{
+    "title": "gudfader",
+    "genre": ["Violenta"],
+    "year": 2000,
+    "director": "gudfader",
+    "duration": 200,
+    "rate": 10,
+    "poster": "https://i.ebayimg.com/images/g/QFQAAOSwAQpfjaA6/s-l1200.jpg",
+}
+
+
+//46:23
